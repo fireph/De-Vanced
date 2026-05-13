@@ -40,18 +40,6 @@ internal object LoadInboxAdsFingerprint : Fingerprint(
 )
 
 internal object FriendsInboxTrayFingerprint : Fingerprint(
-    returnType = "V",
-    accessFlags = listOf(AccessFlags.PUBLIC, AccessFlags.FINAL),
-    filters = OpcodesFilter.opcodesToFilters(
-        Opcode.CONST_4,
-        Opcode.INVOKE_VIRTUAL,
-        Opcode.RETURN_VOID,
-    ),
-    custom = { method, classDef ->
-        method.name == "run" &&
-            classDef.fields.any { field ->
-                if (field.name != "__redex_internal_original_name") return@any false
-                (field.initialValue as? StringEncodedValue)?.value == "FriendsInboxUnitItemSupplierImplementation\$onSubscribe\$1"
-            }
-    },
+    returnType = "Lcom/google/common/collect/ImmutableList;",
+    strings = listOf("messaging.friendsinboxunit.inboxunit.itemsupplier.FriendsInboxUnitItemSupplierImplementation", "getInboxItems"),
 )
