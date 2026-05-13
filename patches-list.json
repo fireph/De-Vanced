@@ -1171,6 +1171,30 @@
       "options": []
     },
     {
+      "name": "Hide friends inbox tray",
+      "description": "Hides the top user horizontal tray (Active Now and Notes) in the inbox.",
+      "use": true,
+      "dependencies": [],
+      "compatiblePackages": {
+        "com.facebook.orca": null
+      },
+      "compatibility": [
+        {
+          "name": "Messenger",
+          "packageName": "com.facebook.orca",
+          "description": null,
+          "appIconColor": 550655,
+          "targets": [
+            {
+              "version": "",
+              "experimental": false
+            }
+          ]
+        }
+      ],
+      "options": []
+    },
+    {
       "name": "Hide OneDrive migration",
       "description": "Hides the OneDrive migration prompt when opening Microsoft Office Lens.",
       "use": true,
