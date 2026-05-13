@@ -1,7 +1,7 @@
 {
-  "created_at": "2026-05-13T00:55:28",
-  "description": "## [1.0.3](https://github.com/fireph/De-Vanced/compare/v1.0.2...v1.0.3) (2026-05-13)\n\n\n### Bug Fixes\n\n* should hide everything now ([3ed2afb](https://github.com/fireph/De-Vanced/commit/3ed2afbb78d38195509c8f7b835cae50a91fbf27))\n\n\n\n\n\n### Bug Fixes\n\n* release v1.0.3 with Google Recorder fix ([c03c701](https://github.com/RookieEnough/De-ReVanced/commit/c03c701a6ba658afb4f4f2093faca9e6bc91e49c))\n\n\n\n\n\n### Bug Fixes\n\n* **Google Recorder — Remove device restrictions:** fingerprint and bytecode hook updated for current app builds — match `RecorderApplication.onCreate` without a fixed feature string, detect any `com.google.android.feature…PIXEL…` `const-string`, and apply the restriction bypass (fixes fingerprint mismatch on newer Recorder versions).\n\n### Maintenance\n\n* **Attribution:** add a standard `Forked from` source header across Kotlin sources that were still missing it.",
-  "download_url": "https://github.com/fireph/De-Vanced/releases/download/v1.0.3/patches-1.0.3.mpp",
+  "created_at": "2026-05-13T01:05:19",
+  "description": "## [1.0.4](https://github.com/fireph/De-Vanced/compare/v1.0.3...v1.0.4) (2026-05-13)\n\n\n### Bug Fixes\n\n* better name ([9fd7e5e](https://github.com/fireph/De-Vanced/commit/9fd7e5e18e37f1cadc8521918dc00030ba052893))\n\n\n\n\n\n### Bug Fixes\n\n* **Google Photos:** fix “Select account” prompt on every restart under MicroG by preventing internal account-selection validation from clearing the selected account (tested on **7.66.00**).\n* **Google Recorder:** improve `Remove device restrictions` fingerprint reliability with `custom` matching plus a bytecode-content fallback when class names move.\n\n### TikTok\n\n* Enable **all** TikTok patches by default on **43.6.2** and **43.8.3**.\n* Keep **Settings** + **Enable Open Debug** as **43.6.2-only** (not compatible with 43.8.3).",
+  "download_url": "https://github.com/fireph/De-Vanced/releases/download/v1.0.4/patches-1.0.4.mpp",
   "signature_download_url": "",
-  "version": "1.0.3"
+  "version": "1.0.4"
 }

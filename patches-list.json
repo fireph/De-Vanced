@@ -1,5 +1,5 @@
 {
-  "version": "1.0.3",
+  "version": "1.0.4",
   "appNames": {
     "com.amazon.mShop.android.shopping": "Amazon Shopping",
     "com.amazon.mp3": "Amazon Music",
@@ -1559,8 +1559,8 @@
       ]
     },
     {
-      "name": "Hide friends inbox tray",
-      "description": "Hides the top user horizontal tray (Active Now and Notes) in the inbox.",
+      "name": "Hide inbox ads",
+      "description": "Hides ads in inbox.",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {
@@ -1583,8 +1583,8 @@
       "options": []
     },
     {
-      "name": "Hide inbox ads",
-      "description": "Hides ads in inbox.",
+      "name": "Hide inbox stories and notes tray",
+      "description": "Hides the stories and notes horizontal tray at the top of the inbox.",
       "use": true,
       "dependencies": [],
       "compatiblePackages": {

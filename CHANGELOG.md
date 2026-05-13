@@ -1,3 +1,24 @@
+## [1.0.4](https://github.com/fireph/De-Vanced/compare/v1.0.3...v1.0.4) (2026-05-13)
+
+
+### Bug Fixes
+
+* better name ([9fd7e5e](https://github.com/fireph/De-Vanced/commit/9fd7e5e18e37f1cadc8521918dc00030ba052893))
+
+
+
+
+
+### Bug Fixes
+
+* **Google Photos:** fix “Select account” prompt on every restart under MicroG by preventing internal account-selection validation from clearing the selected account (tested on **7.66.00**).
+* **Google Recorder:** improve `Remove device restrictions` fingerprint reliability with `custom` matching plus a bytecode-content fallback when class names move.
+
+### TikTok
+
+* Enable **all** TikTok patches by default on **43.6.2** and **43.8.3**.
+* Keep **Settings** + **Enable Open Debug** as **43.6.2-only** (not compatible with 43.8.3).
+
 ## [1.0.3](https://github.com/fireph/De-Vanced/compare/v1.0.2...v1.0.3) (2026-05-13)
 
 
