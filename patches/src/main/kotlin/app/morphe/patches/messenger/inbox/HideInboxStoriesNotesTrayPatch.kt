@@ -16,9 +16,12 @@ val hideInboxStoriesNotesTrayPatch = bytecodePatch(
     compatibleWith(AppCompatibilities.MESSENGER)
 
     execute {
-        FriendsInboxTrayFingerprint.method.addInstructions(0, """
-            const/4 v0, 0x0
-            return v0
-        """)
+        FriendsInboxTrayFingerprint.method.addInstructions(
+            0,
+            """
+                const/4 v0, 0x0
+                return v0
+            """.trimIndent()
+        )
     }
 }
