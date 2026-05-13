@@ -6,13 +6,12 @@ package app.morphe.patches.messenger.inbox
 
 import app.morphe.patches.shared.compat.AppCompatibilities
 import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
-import app.morphe.patcher.extensions.InstructionExtensions.replaceInstruction
 import app.morphe.patcher.patch.bytecodePatch
 
 @Suppress("unused")
-val hideFriendsInboxTrayPatch = bytecodePatch(
-    name = "Hide friends inbox tray",
-    description = "Hides the top user horizontal tray (Active Now and Notes) in the inbox.",
+val hideInboxStoriesNotesTrayPatch = bytecodePatch(
+    name = "Hide inbox stories and notes tray",
+    description = "Hides the stories and notes horizontal tray at the top of the inbox.",
 ) {
     compatibleWith(AppCompatibilities.MESSENGER)
 
