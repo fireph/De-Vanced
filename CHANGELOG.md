@@ -1,3 +1,22 @@
+# 1.0.0 (2026-05-13)
+
+
+### Bug Fixes
+
+* **ci:** restore semantic-release rules so feat, fix, and release commits trigger versions ([3728b97](https://github.com/fireph/De-Vanced/commit/3728b978519854968a56847075aa9d58565a85e3))
+* google photos patch logic ([58f8bc8](https://github.com/fireph/De-Vanced/commit/58f8bc80dfd601cfe5a5dfee81e64d78bab0f496))
+* make Google Photos spoof build patch self-contained ([7b431dd](https://github.com/fireph/De-Vanced/commit/7b431dd5a707231b5289db60a6fdee5d24b27832))
+* make gradlew executable ([3be2ec5](https://github.com/fireph/De-Vanced/commit/3be2ec51fff5990c174c166e7a02625971832063))
+* release 1.0.1 ([b68b315](https://github.com/fireph/De-Vanced/commit/b68b31503e57a9253237a3bf2be8bacfd23f7c86))
+* release 1.0.1 ([26175cf](https://github.com/fireph/De-Vanced/commit/26175cf2910917be08734a741087018e127a1648))
+* release v1.0.3 with Google Recorder fix ([c03c701](https://github.com/fireph/De-Vanced/commit/c03c701a6ba658afb4f4f2093faca9e6bc91e49c))
+* release v1.0.4 (Photos account persistence + TikTok defaults) ([b04a57e](https://github.com/fireph/De-Vanced/commit/b04a57e97d82d8e236e0979ff1069c540380f353))
+
+
+### Features
+
+* release v1.1.0 ([901b2ec](https://github.com/fireph/De-Vanced/commit/901b2ec28fb8e5863d2085d471f0cf529de08422))
+
 ## [1.0.4](https://github.com/RookieEnough/De-ReVanced/compare/v1.0.3...v1.0.4) (2026-04-14)
 
 ### Bug Fixes
