@@ -5,6 +5,7 @@
 package app.morphe.patches.messenger.inbox
 
 import app.morphe.patches.shared.compat.AppCompatibilities
+import app.morphe.patcher.extensions.InstructionExtensions.addInstructions
 import app.morphe.patcher.extensions.InstructionExtensions.replaceInstruction
 import app.morphe.patcher.patch.bytecodePatch
 
