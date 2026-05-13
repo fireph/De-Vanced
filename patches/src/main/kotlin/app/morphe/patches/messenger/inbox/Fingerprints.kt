@@ -40,6 +40,6 @@ internal object LoadInboxAdsFingerprint : Fingerprint(
 )
 
 internal object FriendsInboxTrayFingerprint : Fingerprint(
-    returnType = "Lcom/google/common/collect/ImmutableList;",
-    strings = listOf("messaging.friendsinboxunit.inboxunit.itemsupplier.FriendsInboxUnitItemSupplierImplementation", "getInboxItems"),
+    returnType = "Z",
+    strings = listOf("com.facebook.messaging.friendsinboxunit.plugins.inboxunit.FriendsInboxUnitKillSwitch"),
 )

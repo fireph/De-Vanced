@@ -19,7 +19,7 @@ val hideFriendsInboxTrayPatch = bytecodePatch(
     execute {
         FriendsInboxTrayFingerprint.method.addInstructions(0, """
             const/4 v0, 0x0
-            return-object v0
+            return v0
         """)
     }
 }
