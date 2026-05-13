@@ -16,8 +16,9 @@ val hideFriendsInboxTrayPatch = bytecodePatch(
     compatibleWith(AppCompatibilities.MESSENGER)
 
     execute {
-        FriendsInboxTrayFingerprint.method.replaceInstruction(0, "invoke-static {}, Lcom/google/common/collect/ImmutableList;->of()Lcom/google/common/collect/ImmutableList;")
-        FriendsInboxTrayFingerprint.method.replaceInstruction(3, "move-result-object v0")
-        FriendsInboxTrayFingerprint.method.replaceInstruction(4, "return-object v0")
+        FriendsInboxTrayFingerprint.method.addInstructions(0, """
+            const/4 v0, 0x0
+            return-object v0
+        """)
     }
 }
