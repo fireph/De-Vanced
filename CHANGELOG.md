@@ -1,3 +1,10 @@
+## [1.0.5](https://github.com/fireph/De-Vanced/compare/v1.0.4...v1.0.5) (2026-05-13)
+
+
+### Bug Fixes
+
+* making sure new format works ([3ee71cd](https://github.com/fireph/De-Vanced/commit/3ee71cd76dac2fb317fe5e1e0d9078397c27b937))
+
 ## [1.0.4](https://github.com/fireph/De-Vanced/compare/v1.0.3...v1.0.4) (2026-05-13)
 
 
